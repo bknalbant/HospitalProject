@@ -1,0 +1,22 @@
+body {
+	padding-top: 50px;
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.col-xs-updated {
+	width: 92% !important;
+}
+
+.tableOutput {
+	margin: 12px;
+	width: 98% !important;
+}
+
+.tab {
+	display: inline-block;
+	margin-left: -2px;
+}

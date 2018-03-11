@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<ui:composition template="/WEB-INF/template/master.xhtml">
+	<ui:define name="head">
+		<h:outputStylesheet name="css/login.css" />
+		<title>Login Page</title>
+	</ui:define>
+	<ui:define name="body">
+
+    	    <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login Hospital GAP</h1><br></br>
+				  <h:form id="loginForm">
+					<input type="text" name="user" placeholder="Username"/>
+					<input type="password" name="pass" placeholder="Password"/>
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login"/>
+				 </h:form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+
+	</ui:define>
+
+</ui:composition>
+</html>

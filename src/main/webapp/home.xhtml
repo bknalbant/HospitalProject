@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<ui:composition template="/WEB-INF/template/master.xhtml">
+
+	<ui:define name="head">
+		<title>HospitalGAP</title>
+		<h:outputStylesheet name="css/starter-template.css"/>
+	</ui:define>
+	
+	<ui:define name="body">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h:outputLink styleClass="navbar-brand" value="#">Hospital GAP</h:outputLink>
+           
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          	
+            <li class="active">
+            	<h:outputLink value="#">Home</h:outputLink>
+            </li>
+            <li>
+            	<h:outputLink value="login.xhtml">Login</h:outputLink>
+            </li>
+            <li>
+            	<h:outputLink value="#">Contact</h:outputLink>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<div class="container">
+		<div class="starter-template">
+			<h1>Welcome Hospital GAP </h1>
+			<p class="lead">
+				This application will coming son , we will back to here to be more strong :)
+			</p>
+		</div>
+	</div>
+	</ui:define>
+</ui:composition>
+ 
+</html>
